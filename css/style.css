@@ -8,18 +8,18 @@
 
 nav ul a,
 nav .brand-logo {
-  padding-top: 4px;
+  /*padding-top: 4px;*/
   color: #444;
 }
 
 p {
-  line-height: 2rem;
+  /*line-height: 2rem;*/
 }
 .header {
   background-color: #372D30;
   position: fixed;
   font-family: 'Exo 2', sans-serif;
-  color: #F28C25;
+  color: white;
 }
 .button-collapse {
   color: #26a69a;
@@ -27,10 +27,12 @@ p {
 
 .body {
   font-family: 'Exo 2', sans-serif;
+  background-color: black;
 }
 
 .name{
-  color: #F28C25;
+  color: white;
+
 }
 
 .paddin {
@@ -43,9 +45,11 @@ p {
   height: auto;
   width: auto;
   color: rgba(255,255,255,.9);
+
 }
   .parallax-container .section {
     width: 100%;
+    background-color: black;
   }
 
 @media only screen and (max-width : 992px) {
